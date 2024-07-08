@@ -7,14 +7,7 @@ import people from './people';
 const App = () => {
   console.log(people)
   return (
-    <Avatar
-      name='david'
-      src="https://pbs.twimg.com/profile_images/230946239/123_400x400.JPG"
-      height={200}
-      weight={200}
-      d={true}
-      a={[]}
-    />
+    people.map(v => <Avatar a={v.img} b={v.firstName} c={v.width} d={v.height}/>)
   );
 }
 export default App;

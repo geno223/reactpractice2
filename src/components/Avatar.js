@@ -3,12 +3,12 @@ const Avatar = (props) => {
     console.log(props)
     return (
         <div>
-            <h3>Your boy {props.name}</h3>
+            <h3>Your boy {props.b}</h3>
             <img
-                src={props.src}
-                alt={props.name}
-                width={props.width}
-                height={props.height}
+                src={props.a}
+                alt={props.b}
+                width={props.c}
+                height={props.d}
             />
         </div>
     )
